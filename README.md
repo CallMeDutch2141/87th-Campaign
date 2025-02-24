@@ -1,1 +1,1 @@
-# 87th-Campaign
+Trial run of a 87th campaign
