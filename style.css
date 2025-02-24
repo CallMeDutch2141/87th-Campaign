@@ -1,0 +1,35 @@
+:root {
+    --main-background: #E5AA80;
+    --main-text: #222222;
+    --section-text: #FDFDFD;
+    --section-background: #204057;
+    --h1-text: #815240;
+}
+
+body {
+    background-color: var(--main-background);
+    color: var(--main-text);
+    font-family: 'Arial', sans-serif;
+    margin: 20px;
+}
+
+section {
+    background-color: var(--section-background);
+    color: var(--section-text);
+    margin: 20px 0px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h1 {
+    color: var(--h1-text);
+}
+
+a {
+    color: var(--section-text);
+    text-decoration: none;
+}
+
+footer {
+    text-align: center;
+}
