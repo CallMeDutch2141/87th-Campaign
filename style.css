@@ -25,9 +25,49 @@ h1 {
     color: var(--h1-text);
 }
 
+h2 {
+    color: var(--section-text);
+}
+
 a {
     color: var(--section-text);
     text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.home ul {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+
+    li {
+        background-color: var(--section-background);
+        text-align: center;
+        margin: 10px;
+        padding: 50px;
+        border-radius: 10px;
+    }
+}
+
+.navigation ul {
+    background-color: var(--section-background);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 75%;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+
+    li {
+        text-align: center;
+        background-color: var(--h1-text);
+        padding: 10px;
+        border-radius: 10px;
+    }
 }
 
 footer {
