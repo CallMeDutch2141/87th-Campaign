@@ -70,6 +70,30 @@ ul {
     }
 }
 
+#\32\.0 a {
+    color: #2984d9;
+    text-decoration: underline;
+}
+
+#\33\.0 a {
+    color: #2984d9;
+    text-decoration: underline;
+}
+
+#\33\.5 a {
+    color: #2984d9;
+    text-decoration: underline;
+}
+
+#unknown a {
+    color: #2984d9;
+    text-decoration: underline;
+}
+
+b {
+    color: #ff0000;
+}
+
 img {
     display: block;
     margin: auto;
