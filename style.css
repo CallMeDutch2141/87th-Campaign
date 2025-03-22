@@ -4,6 +4,8 @@
     --section-text: #FDFDFD;
     --section-background: #204057;
     --h1-text: #644032;
+    --link-text: #2984d9;
+    --comment-text: #ff0000;
 }
 
 body {
@@ -76,22 +78,27 @@ ul {
 }
 
 #\33\.0 a {
-    color: #2984d9;
+    color: var(--link-text);
     text-decoration: underline;
 }
 
 #\33\.5 a {
-    color: #2984d9;
+    color: var(--link-text);
     text-decoration: underline;
 }
 
 #unknown a {
-    color: #2984d9;
+    color: var(--link-text);
     text-decoration: underline;
 }
 
-b {
-    color: #ff0000;
+.link a {
+    color: var(--link-text);
+    text-decoration: underline;
+}
+
+.comment {
+    color: var(--comment-text);
 }
 
 img {
