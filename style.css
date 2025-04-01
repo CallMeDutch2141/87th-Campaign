@@ -106,6 +106,56 @@ img {
     margin: auto;
 }
 
+/* Sidebar Styles */
+.sidebar {
+    position: fixed;
+    left: -300px;
+    /* Initially off-screen */
+    top: 0;
+    width: 250px;
+    height: 100%;
+    background-color: var(--section-background);
+    transition: left 0.3s ease-in-out;
+    padding: 20px;
+}
+
+.sidebar.open {
+    left: 0;
+    /* Slide in */
+}
+
+.sidebar ul {
+    padding: 0;
+    margin-top: 75px;
+}
+
+.sidebar li {
+    background-color: var(--h1-text);
+    padding: 10px;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+.sidebar a {
+    color: var(--section-text);
+    text-decoration: none;
+}
+
+/* Sidebar Toggle Button */
+.sidebar-toggle {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    background-color: var(--h1-text);
+    color: var(--section-text);
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 24px;
+    z-index: 1000;
+    /* To stay above the sidebar */
+}
+
 footer {
     text-align: center;
 }
