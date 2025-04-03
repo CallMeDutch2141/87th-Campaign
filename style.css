@@ -8,6 +8,11 @@
     --comment-text: #ff0000;
 }
 
+* {
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
 body {
     background-color: var(--main-background);
     color: var(--main-text);
@@ -44,6 +49,7 @@ ul {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 10px;
+    padding-left: 0;
 
     li {
         background-color: var(--section-background);
