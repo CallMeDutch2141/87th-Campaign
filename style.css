@@ -47,7 +47,7 @@ ul {
 
 .home ul {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 10px;
     padding-left: 0;
 
@@ -165,3 +165,29 @@ img {
 footer {
     text-align: center;
 }
+
+@media screen and (max-width: 1150px) {
+    .home ul {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media screen and (max-width: 870px) {
+    .home ul {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 590px) {
+    .home ul {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+/* @media screen and (min-width: 501px) {
+
+}
+
+@media screen and (min-width: 1025px) {
+
+} */
