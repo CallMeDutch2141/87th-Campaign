@@ -65,7 +65,8 @@ ul {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    max-width: 75%;
+    gap: 10px;
+    max-width: 70%;
     margin: 0 auto;
     padding: 20px;
     border-radius: 10px;
@@ -176,24 +177,24 @@ footer {
     .home ul {
         grid-template-columns: repeat(2, 1fr);
     }
-}
-
-@media screen and (max-width: 590px) {
-    .home ul {
-        grid-template-columns: repeat(1, 1fr);
-    }
 
     .navigation {
         padding-top: 80px;
 
         ul {
             flex-direction: column;
-            gap: 10px;
         }
     }
 
     .sidebar-toggle {
-        left: 35%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
+@media screen and (max-width: 590px) {
+    .home ul {
+        grid-template-columns: repeat(1, 1fr);
     }
 }
 
