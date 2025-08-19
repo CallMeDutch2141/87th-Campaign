@@ -108,6 +108,10 @@ ul {
     color: var(--comment-text);
 }
 
+.invis {
+    text-decoration: underline;
+}
+
 img {
     display: block;
     margin: auto;
