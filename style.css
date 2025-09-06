@@ -108,7 +108,7 @@ ul {
     color: var(--comment-text);
 }
 
-.invis {
+.non-link {
     text-decoration: underline;
 }
 
