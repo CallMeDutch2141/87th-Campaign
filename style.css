@@ -79,6 +79,11 @@ ul {
     }
 }
 
+#prelobby a {
+    color: var(--link-text);
+    text-decoration: underline;
+}
+
 #\32\.0 a {
     color: #2984d9;
     text-decoration: underline;
